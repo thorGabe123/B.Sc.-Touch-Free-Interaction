@@ -1,0 +1,102 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: red;
+	position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
+	left: -680px;
+}
+
+h1 {
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+#keyboard {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.key {
+	font-weight: bold;
+	position: relative;
+	width: 160px;
+	height: 160px;
+	font-size: 48px;
+	line-height: 160px;
+	text-align: center;
+	margin: 10px;
+	cursor: pointer;
+	transition: transform 0.1s ease-in-out;
+	background-image: url("Pictures/BlackWhite.jpg");
+	background-size: cover;
+}
+
+.key:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("Pictures/whiteBG.jpg");
+	background-size: cover;
+	opacity: 1;
+	z-index: -1;
+}
+
+#key1:before {
+	background-position: top left;
+}
+
+#key2:before {
+	background-position: top center;
+}
+
+#key3:before {
+	background-position: top right;
+}
+
+#key4:before {
+	background-position: center left;
+}
+
+#key5:before {
+	background-position: center center;
+}
+
+#key6:before {
+	background-position: center right;
+}
+
+#key7:before {
+	background-position: bottom left;
+}
+
+#key8:before {
+	background-position: bottom center;
+}
+
+#key9:before {
+	background-position: bottom right;
+}
+
+.key:hover {
+	background-color: lightgray;
+	transform: scale(0.97);
+}
+
+.key:active {
+	transform: scale(0.90);
+}
+
+.darkness {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
