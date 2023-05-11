@@ -4,7 +4,7 @@ body {
 	color: red;
 	position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
 	left: -680px;
-	top: 130px;
+	top: 190px;
 }
 
 h1 {
@@ -23,6 +23,7 @@ h1 {
 }
 
 /* Testing */
+/*
 .key {
 	font-weight: bold;
 	position: relative;
@@ -36,8 +37,15 @@ h1 {
 	transition: transform 0.1s ease-in-out;
 }
 
-/* Final product *
-/*
+.key:hover {
+	background-color: lightgray;
+	transform: scale(0.97);
+	background-image: url("Pictures/gridlines\ 120_bla.jpg");
+	background-size: cover;
+}
+*/
+
+/* Final product */
 .key {
 	font-weight: bold;
 	position: relative;
@@ -52,7 +60,11 @@ h1 {
 	background-image: url("Pictures/gridlines 120_bla.jpg");
 	background-size: cover;
 }
-*/
+
+.key:hover {
+	background-color: lightgray;
+	transform: scale(0.97);
+}
 
 .key:before {
 	content: "";
@@ -102,23 +114,6 @@ h1 {
 #key9:before {
 	background-position: bottom right;
 }
-
-/* For testing */
-.key:hover {
-	background-color: lightgray;
-	transform: scale(0.97);
-	background-image: url("Pictures/gridlines\ 120_bla.jpg");
-	background-size: cover;
-}
-
-/* Final Prodoct */
-/*
-.key:hover {
-	background-color: lightgray;
-	transform: scale(0.97);
-}
-*/
-
 
 .key:active {
 	transform: scale(0.90);
