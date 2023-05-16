@@ -23,6 +23,7 @@ h1 {
 }
 
 /* Testing */
+/*
 .key {
 	font-weight: bold;
 	position: relative;
@@ -42,10 +43,10 @@ h1 {
 	background-image: url("Pictures/gridlines\ 120_bla.jpg");
 	background-size: cover;
 }
+*/
 
 
 /* Final product */
-/*
 .key {
 	font-weight: bold;
 	position: relative;
@@ -60,7 +61,7 @@ h1 {
 	background-image: url("Pictures/gridlines 120_bla.jpg");
 	background-size: cover;
 }
-*/
+
 
 .key:hover {
 	background-color: lightgray;
