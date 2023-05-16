@@ -58,10 +58,9 @@ h1 {
 	margin: 10px;
 	cursor: pointer;
 	transition: transform 0.1s ease-in-out;
-	background-image: url("Pictures/gridlines 120_bla.jpg");
+	background-image: url("Pictures/abc.jpg");
 	background-size: cover;
 }
-
 
 .key:hover {
 	background-color: lightgray;
