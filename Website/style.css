@@ -4,7 +4,7 @@ body {
 	color: red;
 	position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
 	left: -680px;
-	top: 190px;
+	top: 250px;
 }
 
 h1 {
@@ -22,17 +22,17 @@ h1 {
 	justify-content: center;
 }
 
-/* Testing */
+/* Small pic*/
 /*
 .key {
 	font-weight: bold;
 	position: relative;
-	width: 160px;
-	height: 160px;
-	font-size: 48px;
-	line-height: 160px;
+	width: 120px;
+	height: 120px;
+	font-size: 32px;
+	line-height: 120px;
 	text-align: center;
-	margin: 10px;
+	margin: 5px;
 	cursor: pointer;
 	transition: transform 0.1s ease-in-out;
 }
@@ -40,22 +40,21 @@ h1 {
 .key:hover {
 	background-color: lightgray;
 	transform: scale(0.97);
-	background-image: url("Pictures/gridlines\ 120_bla.jpg");
+	background-image: url("Pictures/abc.jpg");
 	background-size: cover;
 }
 */
-
 
 /* Final product */
 .key {
 	font-weight: bold;
 	position: relative;
-	width: 160px;
-	height: 160px;
-	font-size: 48px;
-	line-height: 160px;
+	width: 120px;
+	height: 120px;
+	font-size: 32px;
+	line-height: 120px;
 	text-align: center;
-	margin: 10px;
+	margin: 5px;
 	cursor: pointer;
 	transition: transform 0.1s ease-in-out;
 	background-image: url("Pictures/abc.jpg");
