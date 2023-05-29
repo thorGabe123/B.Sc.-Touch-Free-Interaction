@@ -3,7 +3,7 @@ body {
 	text-align: center;
 	color: red;
 	position: relative; /* has to be position relative for left to work, or you could just do margin-left: -50px; too */
-	left: -680px;
+	right: -680px;
 	top: 250px;
 }
 
@@ -23,7 +23,6 @@ h1 {
 }
 
 /* testing */
-/*
 .key {
 	font-weight: bold;
 	position: relative;
@@ -40,10 +39,9 @@ h1 {
 .key:hover {
 	background-color: lightgray;
 	transform: scale(0.97);
-	background-image: url("Pictures/abc.jpg");
+	background-image: url("Pictures/gridline_30_more_black_2.png");
 	background-size: cover;
 }
-*/
 
 /* Final product */
 .key {
@@ -57,7 +55,7 @@ h1 {
 	margin: 5px;
 	cursor: pointer;
 	transition: transform 0.1s ease-in-out;
-	background-image: url("Pictures/abc.jpg");
+	background-image: url("Pictures/gridline_30_more_black_2.png");
 	background-size: cover;
 }
 
