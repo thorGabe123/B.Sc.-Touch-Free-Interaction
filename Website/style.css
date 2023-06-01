@@ -44,6 +44,7 @@ h1 {
 }
 
 /* Final product */
+/*
 .key {
 	font-weight: bold;
 	position: relative;
@@ -63,6 +64,7 @@ h1 {
 	background-color: lightgray;
 	transform: scale(0.97);
 }
+*/
 
 .key:before {
 	content: "";
