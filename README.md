@@ -12,3 +12,11 @@ Here is a list of what the different folders contain:
 **Testing Results** : Pictures acquired through testing
 
 **Website** : Website showing display
+
+**System workflow**
+
+![liveviewing](https://github.com/thorGabe123/B.Sc.-Touch-Free-Interaction/blob/main/live_viewing.PNG?raw=true)
+
+**Flowchart of code workflow**
+
+![flowchart](https://github.com/thorGabe123/B.Sc.-Touch-Free-Interaction/blob/main/flowchart_signal_processing.png?raw=true)
